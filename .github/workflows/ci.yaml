@@ -55,7 +55,7 @@ jobs:
                 sources:
                   - cdk/cdk.out/Backend101DoctestJulia-CODE.template.json
                 parameters:
-                  amiParameter: AMIBackend101DoctestJulia
+                  amiParameter: AMIBackend101doctestjulia
                   amiTags:
                     BuiltBy: amigo
                     Recipe: backend-101
