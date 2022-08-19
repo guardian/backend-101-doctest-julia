@@ -19,7 +19,7 @@ export class Backend101DoctestJulia extends GuStack {
 
 		const userData = `#!/bin/bash -ev
 		aws s3 cp s3://${bucket}/${keyPrefix}/app.service /etc/systemd/system/${name}.service
-		aws s3 cü s3://${bucket}/${keyPrefix}/hello-world.jar /hello-world.jar
+		aws s3 cp s3://${bucket}/${keyPrefix}/hello-world.jar /hello-world.jar
 		systemctl start ${name}`;
 
 		const app = new GuEc2App(this, {

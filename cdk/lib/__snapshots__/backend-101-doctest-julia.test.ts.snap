@@ -151,7 +151,7 @@ Object {
         "UserData": Object {
           "Fn::Base64": "#!/bin/bash -ev
 		aws s3 cp s3://deploy-tools-dist/deploy/TEST/backend-101-doctest-julia/app.service /etc/systemd/system/backend-101-doctest-julia.service
-		aws s3 cü s3://deploy-tools-dist/deploy/TEST/backend-101-doctest-julia/hello-world.jar /hello-world.jar
+		aws s3 cp s3://deploy-tools-dist/deploy/TEST/backend-101-doctest-julia/hello-world.jar /hello-world.jar
 		systemctl start backend-101-doctest-julia",
         },
       },
